@@ -22,4 +22,21 @@ class Anagram
 
 end
 
-#Note: not sure how to factor in #%w(some words) into the solution.
+#Note: possible way to factor in #%w(some words) into the solution:
+
+# def initialize(word)
+#     @word = word
+#   end
+
+#   def match(array)
+
+#     @matches = array.select { |item| item.split("").sort == @word.split("").sort }
+
+#     if !@matches.empty?
+#       @matches
+#     else
+#       %w()
+#     end
+#   end
+
+# end
