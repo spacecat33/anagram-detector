@@ -35,7 +35,7 @@ end
 #     if !@matches.empty?
 #       @matches
 #     else
-#       %w()
+#       %w()        # %w() means "an array of strings"
 #     end
 #   end
 
